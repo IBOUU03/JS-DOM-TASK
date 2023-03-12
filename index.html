@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./assets/javascript/index.js" defer></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <form id="login_form" class="form_class">
+            <div class="form_div">
+                <label>Login:</label>
+                <input id="username" class="field_class" name="login_txt" type="text" placeholder="Username" autofocus>
+                <label>Password:</label>
+                <input id="password" class="field_class" name="password_txt" type="password" placeholder="Password">
+                <button id="loginBtn" class="loginBtn">Login</button>
+            </div>
+            <div id="result"></div>
+        </form>
+
+
+        <form id="info_form" class="form_class">
+            <label> Firstname:</label>
+            <input id="firstname" class="field_class"  type="text" placeholder="Firstname">
+            <label> Lastname:</label>
+            <input id="lastname" class="field_class"  type="text" placeholder="Lastname">
+            <label>Comment</label>
+            <textarea name="" class="field_class" id="comment" cols="30" rows="10"></textarea>
+            <button id="commentBtn" class="loginBtn">Comment</button>
+        </form>
+        
+        <section id="userinfo" class="form_class">
+            <div class="form_div">
+                <h3 id="firstnameuser">Firstname: <span></span></h3>
+                <h3 id="lastnameuser">Lastname: <span></span></h3>
+                <h3 class="commenthead">Comment</h4>
+                <p></p>
+                
+            </div> 
+        </section>
+    </main>
+</body>
+</html>
